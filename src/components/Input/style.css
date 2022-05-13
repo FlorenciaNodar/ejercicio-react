@@ -1,0 +1,41 @@
+input { 
+    background-color: #124378;
+    border: 1px solid white;
+    box-sizing: border-box;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    height: 100%;
+    text-align: center;
+    width: 140px;
+}
+
+.input-container {
+    height: 40px;
+    position: relative;
+}
+
+::-webkit-input-placeholder {
+    color: #DEDEE3;
+    font-size: 15px;
+    font-weight: normal;
+    text-align: center;
+    transform:translate3d(0,-4px,0)
+ }
+
+ input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+    input { 
+        font-size: 20px;
+        width: 120px;
+    }
+
+    .input-container {
+        height: 35px;
+    }
+}

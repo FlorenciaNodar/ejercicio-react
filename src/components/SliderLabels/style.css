@@ -1,0 +1,11 @@
+.labels-container {
+    display: flex;
+    justify-content: space-between;
+    margin: -10px 0 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .labels-container {
+        font-size: 14px;
+    }
+}
